@@ -3,7 +3,9 @@ import axios from 'axios';
 import './App.css';
 //Components
 
-import Banner from './components/Banner/Banner'
+import Banner from './components/Banner/Banner';
+import Navbar from './components/Navbar/Navbar';
+
 
 class App extends Component {
 
@@ -26,7 +28,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navbar/>
         <Banner/>
+       
       </div>
     );
   }
