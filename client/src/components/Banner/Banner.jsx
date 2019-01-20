@@ -11,7 +11,7 @@ const Banner = props => (
           Gifted by the world’s most generous community of photographers.{" "}
           <span role="img" aria-label="emoji">
             🎁
-          </span>
+          </span> 
         </p>
         {props.children}
       </div>
